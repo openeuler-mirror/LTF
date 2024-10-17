@@ -1,37 +1,51 @@
-# LTF
+# LTF介绍
+  LTF（Linux Test Framework）是麒麟信安自动化组开发的一款面向Linux操作系统测试的自动化测试框架，目前已在openEuler社区开源。LTF工具积极投入国内各评测项目和日常版本测试任务中，汲取了在Linux自动化测试领域的经验，具有高覆盖、低耦合、轻量级三大特点，能够全面满足不同场景的测试需求。
 
-#### 介绍
-A tool dedicated to automated functional testing and performance testing of operating systems.
+# 软件架构
+文件和目录名	    功能
 
-#### 软件架构
-软件架构说明
+Run.sh	            测试驱动脚本
 
+lib	            LTF测试套件运行时自身需要的库文件
 
-#### 安装教程
+testcases	    包含所有运行在LTF下的测试程序
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+benchmark-tools	    存放性能工具安装包
 
-#### 使用说明
+config	            配置文件存放处，自定义测试用例集
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+output	            结果保存目录，运行测试项后自动生成
 
-#### 参与贡献
+testscripts	    常用测试脚本
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+LICENSE	            包含框架的许可证协议内容
 
+README.md	    包含框架的使用方法和开发方法
 
-#### 特技
+# 安装教程
+1. 下载并克隆 LTF 仓库。
+2. 按照仓库中的 README.md 文件执行安装步骤。
+3. 安装所需的依赖项或搭建测试环境。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+# 使用说明
+一. 运行测试
+
+1. 赋权脚本并在本地机器上运行测试：
+
+1.1 在终端中执行 ./Run.sh -f XML 文件，多个编号应以冒号分隔。
+
+1.2 在终端中执行 ./ltfMenu.sh，根据需要灵活组合并选择测试模块前的编号，多个编号可以用空格分隔，之后输入字符 "r" 运行。
+
+1.2.1 性能测试方法
+
+当执行 ./ltfMenu.sh 时，您可以在菜单选项界面中输入 "s" 来自定义性能测试工具。选择工具前的编号，多个编号可以用空格分隔。根据提示自定义此次测试的 xml 名称，然后按 Enter 返回菜单选项界面，选择与 xml 名称对应的编号。输入 "y" 表示检查性能测试项的执行环境，如是否安装了依赖包；输入 "n" 表示不检查执行环境。按 Enter 键后输入 "r" 开始运行测试项。
+
+二. 编写测试
+
+您可以随意添加想要创建的测试模块。例如，"Linux 命令"测试。您可以在 testcases 目录下创建 commands 文件夹，然后在 config 目录中添加相应的 xml 文件，接下来就可以在 commands 文件夹中开发测试用例脚本了。
+
+# 参与贡献
+1. Fork 本仓库。
+2. 新建 xxx 分支。
+3. 提交开发代码。
+4. 新建 Pull Request。

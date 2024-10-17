@@ -1,0 +1,8 @@
+p(?:wd(?:code(?:phrase)?)?|assword)|old(?:password|pwd|_cipher)|new(?:password|pwd|_cipher)|check(?:old|new)pwd|mo(?:cipher|pass)|user(?:History)?pwd|recipher|passwd|cyfrinair|nmspwdcode|[sg]etpassword[ ]{0,10}[=:]("|'')?(?!"|'')\s{0,8}\S+("|'')?
+BEGIN[\s\w]+CERTIFICATE
+BEGIN[\s\w]+PUBLIC\sKEY
+BEGIN[\s\w]+PRIVATE\sKEY
+-----BEGIN\s+PGP\s+PUBLIC\s+KEY\s+BLOCK-----
+-----BEGIN\s+PGP\s+PRIVATE\s+KEY\s+BLOCK-----
+<password>.+</password>
+^ssh-rsa\s+AAAA

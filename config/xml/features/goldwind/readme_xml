@@ -1,0 +1,5 @@
+features/goldwind/desktop.xml:Goldwind-desktop:金风-桌面版
+features/goldwind/master.xml:Goldwind-master:金风-主控版
+features/goldwind/run.xml:Goldwind-run:金风-服务器运行版
+features/goldwind/vibration.xml:Goldwind-vibration:金风-振动版
+features/goldwind/industrial.xml:Goldwind-industrial:金风-工控版

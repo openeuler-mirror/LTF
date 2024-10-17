@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestGroup>
+	<TestCase>
+		<CaseName>libevent</CaseName>
+		<CaseDir>DevelopmentEnv</CaseDir>
+		<CaseScript>libevent.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>libprotobuf</CaseName>
+		<CaseDir>DevelopmentEnv</CaseDir>
+		<CaseScript>libprotobuf.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>libsqlite</CaseName>
+		<CaseDir>DevelopmentEnv</CaseDir>
+		<CaseScript>libsqlite.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>libvirt</CaseName>
+		<CaseDir>DevelopmentEnv</CaseDir>
+		<CaseScript>libvirt.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>openmp</CaseName>
+		<CaseDir>DevelopmentEnv</CaseDir>
+		<CaseScript>openmp.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>mpich</CaseName>
+		<CaseDir>DevelopmentEnv</CaseDir>
+		<CaseScript>mpich.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+</TestGroup>

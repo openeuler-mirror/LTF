@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AutoTest>
+	<TestGroup>
+		<GroupName>benchmarks</GroupName>
+		<GroupXMLName>benchmarks.xml</GroupXMLName>
+		<GroupRun>True</GroupRun>
+	</TestGroup>
+	<TestGroup>
+		<GroupName>gjb</GroupName>
+		<GroupXMLName>gjb.xml</GroupXMLName>
+		<GroupRun>True</GroupRun>
+	</TestGroup>
+	<TestGroup>
+		<GroupName>commands</GroupName>
+		<GroupXMLName>commands-all.xml</GroupXMLName>
+		<GroupRun>True</GroupRun>
+	</TestGroup>
+	<TestGroup>
+		<GroupName>languages</GroupName>
+		<GroupXMLName>languages.xml</GroupXMLName>
+		<GroupRun>True</GroupRun>
+	</TestGroup>
+	<TestGroup>
+		<GroupName>development</GroupName>
+		<GroupXMLName>development.xml</GroupXMLName>
+		<GroupRun>True</GroupRun>
+	</TestGroup>
+	<TestGroup>
+		<GroupName>filesystems</GroupName>
+		<GroupXMLName>filesystems.xml</GroupXMLName>
+		<GroupRun>True</GroupRun>
+	</TestGroup>
+</AutoTest>

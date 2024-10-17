@@ -1,0 +1,1 @@
+(?<!(xmlns|xsi|namespace)(:)?\S{0,30}=".{0,100}|namespace\s{1,4}|!DOCTYPE.{1,100}|\<!--.{1,100}|\.)(((?i)ftp://|Http[s]?://|www\.)\S+\.\S+)

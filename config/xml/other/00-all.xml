@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestGroup>
+    <TestCase>
+        <CaseName>log</CaseName>
+        <CaseDir>Other</CaseDir>
+        <CaseScript>other.sh</CaseScript>
+        <CaseRun>True</CaseRun>
+    </TestCase>
+</TestGroup>
+<TestGroup>
+    <TestCase>
+        <CaseName>network</CaseName>
+        <CaseDir>Other</CaseDir>
+        <CaseScript>other.sh</CaseScript>
+        <CaseRun>True</CaseRun>
+    </TestCase>
+</TestGroup>
+<TestGroup>
+    <TestCase>
+        <CaseName>stability</CaseName>
+        <CaseDir>Other</CaseDir>
+        <CaseScript>other.sh</CaseScript>
+        <CaseRun>True</CaseRun>
+    </TestCase>
+</TestGroup>
+<TestGroup>
+    <TestCase>
+        <CaseName>functional</CaseName>
+        <CaseDir>Other</CaseDir>
+        <CaseScript>other.sh</CaseScript>
+        <CaseRun>True</CaseRun>
+    </TestCase>
+</TestGroup>
