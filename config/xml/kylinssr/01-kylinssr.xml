@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestGroup>
+	<TestCase>
+		<CaseName>audits</CaseName>
+		<CaseDir>KylinSSR</CaseDir>
+		<CaseScript>kylinssr.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>configures</CaseName>
+		<CaseDir>KylinSSR</CaseDir>
+		<CaseScript>kylinssr.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>access</CaseName>
+		<CaseDir>KylinSSR</CaseDir>
+		<CaseScript>kylinssr.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>networks</CaseName>
+		<CaseDir>KylinSSR</CaseDir>
+		<CaseScript>kylinssr.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+</TestGroup>

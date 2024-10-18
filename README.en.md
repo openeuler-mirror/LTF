@@ -1,36 +1,22 @@
-# LTF
+# Linux-Test-Framework
 
-#### Description
-A tool dedicated to automated functional testing and performance testing of operating systems.
+Linux automated testing framework
+https://gitee.com/openeuler/LTF
+	
+一. Running tests
 
-#### Software Architecture
-Software architecture description
+1. To run these tests on your local machine :
 
-#### Installation
+1.1 Execute "./Run.sh -f XML file" in the terminal, Multiple serial numbers should be separated by colons.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.2 Execute "./ltfMenu.sh" in the terminal, flexibly combine and select the serial numbers before the test modules according to the need, multiple numbers can be separated by spaces, and then enter the character "r" to run.
 
-#### Instructions
+1.2.1 Performance Testing Method
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+When executing ./ltfMenu.sh, you can enter "s" in the menu option interface to customize the performance testing tools. Select the serial numbers before the tools, multiple numbers can be separated by spaces. Customize the xml name for this test according to the prompt, and then press Enter to return to the menu option interface to select the serial number corresponding to the xml name. "y" indicates to check the execution environment of the performance test item, such as whether the dependent packages are installed. "n" indicates not to check the execution environment of the performance test item. Press Enter and execute "r" to start running the test item.
 
-#### Contribution
+二. Writing tests
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+  Feel free to add the test modules you want to make. For example, the "Linux Command" test. You can create the "commands" folder in the testcases directory. And add the corresponding xml file in the config directory.
+    
+  There is an xml parsing script in the lib folder. Use "source xmlParse.sh" if necessary

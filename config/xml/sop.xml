@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestGroup>
+	<TestCase>
+		<CaseName>feature</CaseName>
+		<CaseDir>SOP</CaseDir>
+		<CaseScript>sop.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>sysadm</CaseName>
+		<CaseDir>SOP</CaseDir>
+		<CaseScript>sop.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>secadm</CaseName>
+		<CaseDir>SOP</CaseDir>
+		<CaseScript>sop.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>audadm</CaseName>
+		<CaseDir>SOP</CaseDir>
+		<CaseScript>sop.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+	<TestCase>
+		<CaseName>ordinary</CaseName>
+		<CaseDir>SOP</CaseDir>
+		<CaseScript>sop.sh</CaseScript>
+		<CaseRun>True</CaseRun>
+	</TestCase>
+</TestGroup>

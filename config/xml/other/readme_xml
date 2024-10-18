@@ -1,0 +1,6 @@
+other/00-all.xml:All:全部测试内容
+other/01-log.xml:Log:日志相关测试
+other/02-network.xml:Network:网络相关测试
+other/03-stability.xml:Stability:稳定性测试
+other/04-functional.xml:Functional:功能性测试
+other/05-compat.xml:Compat:兼容性测试

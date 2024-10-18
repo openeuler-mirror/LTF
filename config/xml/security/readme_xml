@@ -1,0 +1,8 @@
+security/01-acl.xml:acl:自主访问控制测试
+security/02-audit.xml:audit:审计测试
+security/03-pam.xml:pam:Pam认证测试
+security/04-other.xml:other:其他测试
+security/05-netstat.xml:netstat:端口扫描测试
+security/06-redline.xml:redline:安全红线测试
+security/07-basesec.xml:basesec:安全基础用例测试
+security/08-pentest.xml:pentest:渗透测试
